@@ -1,0 +1,62 @@
+body
+{
+	height: 100%;
+  	width: 100%;
+  	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	
+}
+
+.vert
+	{
+	  vertical-align: middle;
+	  width:100%;
+	  padding-top:4%;
+	}
+	
+.header
+	{
+ 		height: 80%;
+  		background: #11cc45 url('http://www.bootply.com/assets/example/pt_squares_lg.png') repeat center center fixed;
+	}
+	
+.header h1 {
+  font-size:80px;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+  color:#431a6d;
+  color:#fff;
+  margin-left:50px;
+  margin-top:50px;
+  text-align: center;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.header .lead {
+  color:#eeeeee;
+  font-size:25px;
+  text-align: center;
+  margin-top: 20px;
+   margin-bottom:70px;
+}
+
+.footertext {
+  color: #5E5E5E;
+}
+
+
+@media (max-width: 480px) 
+{
+.header h1 {
+  font-size:40px;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+  color:#431a6d;
+  color:#fff;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:20px;
+  text-align: center;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  
+  
+
+}
